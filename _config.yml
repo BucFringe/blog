@@ -102,7 +102,6 @@ theme: 3-hexo
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
+  type: heroku
   repo: 'https://github.com/BucFringe/blog' # https://github.com/BucFringe/blog
-  branch: [main]
   message: [deployment]
